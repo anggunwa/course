@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h2>Contact Form</h2>
+    <form action="/Latihan/contact_result.php" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" name="email" required><br><br>
+
+        <label for="name">Subject (optional):</label><br>
+        <input type="text" name="subject"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea rows="5" cols="30" name="message" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+</body>
+</html>
